@@ -3,7 +3,7 @@ package h13;
 import java.applet.Applet;
 import java.awt.*;
 
-public class Praktijkopdracht2 extends Applet{
+public class Praktijkopdrachtbomen extends Applet{
     int x1 = 50;
     int y1 = 50;
     int width = 50;
@@ -24,11 +24,7 @@ public class Praktijkopdracht2 extends Applet{
             x1 = 50;
             y1 += 250;
         }
-
-
     }
-
-
 
     void tekenstam( Graphics g, int x1, int y1, int width, int height){
         g.setColor(Color.black);
@@ -36,5 +32,4 @@ public class Praktijkopdracht2 extends Applet{
         g.setColor(Color.green);
         g.fillOval(x1 - width, y1, width * 3, height);
     }
-
 }
