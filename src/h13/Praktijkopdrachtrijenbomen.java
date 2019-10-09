@@ -3,7 +3,7 @@ package h13;
 import java.applet.Applet;
 import java.awt.*;
 
-public class Praktijkopdrachtbomen extends Applet{
+public class Praktijkopdrachtrijenbomen extends Applet{
     int x1 = 50;
     int y1 = 50;
     int width = 50;
